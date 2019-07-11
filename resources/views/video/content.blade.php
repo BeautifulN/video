@@ -10,6 +10,6 @@
 <body>
     <h2>视频详情</h2>
     <hr>
-    <video src="https://longin-oss.oss-cn-beijing.aliyuncs.com/ead23c2c1bcc372f9eb80e16e776af21.mp4" controls="controls"></video>
+    <video src="https://1809-video.oss-cn-beijing.aliyuncs.com/nwZ4X.mp4" controls="controls"></video>
 </body>
 </html>
