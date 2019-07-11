@@ -30,11 +30,12 @@ class VideoController extends Controller
             if ($v== '.' || $v=='..'){
                 continue;
             }
-
-            $file_name = Str::random(5). '.jpg';
+            $type = substr($v,strpos($v,'.'),1111);
+            $file_name = Str::random(5).$type;
             $local_file = $file_path . '/' .$v;
+//            print_r($local_file);
 
-            echo "本地文件：".$local_file;echo '<br>';
+//            echo "本地文件：".$local_file;echo '<br>';
 
             try{
                 $ossClient->uploadFile($this->Bucket,$file_name,$local_file);
