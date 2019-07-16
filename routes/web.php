@@ -36,3 +36,4 @@ Route::get('Oss2', 'Oss\OssController@Oss2');  //OSS测试上传图片
 Route::get('Oss_video', 'Video\VideoController@Oss_video');  //本地视频转移到OSS
 Route::get('content', 'Video\ContentController@content');  //
 Route::get('index', 'Video\IndexController@index');  //
+Route::post('notify', 'Oss\OssController@notify');
